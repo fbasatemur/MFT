@@ -1,6 +1,12 @@
-# Multimodal Fusion Transformer for Remote Sensing Image Classification
+# Improved Remote Sensing Image Classification using Axial Attention
 
-[Swalpa Kumar Roy](https://swalpa.github.io), [Ankur Deria](https://ankurderia.github.io), [Danfeng Hong](https://sites.google.com/view/danfeng-hong), [Behnood Rasti](https://scholar.google.com/citations?user=hA_Xi6MAAAAJ&hl=en), [Antonio Plaza](https://scholar.google.com/citations?user=F1UAj8oAAAAJ&hl=en), and [Jocelyn Chanussot](http://jocelyn-chanussot.net/)
+In recent studies, the combination of LIDAR and HSI image data through the Multimodal Fusion Transformer (MFT) based classification models has become popular for satellite image analysis. In this study, one of these approaches, namely "Multimodal Fusion Transformer for Remote Sensing Image Classification," introduces the use of Residual Attention modules for different forms of Axial Attention modules and deeper consecutive encoder architectures instead of the traditionally proposed Multi-Head Cross Attention module in the ViT (Vision Transformer) approaches, which has shown to be more successful and up-to-date.
+
+The papers of the conducted and referenced studies are as follows: 
+
+[Improved Remote Sensing Image Classification using Axial Attention](https://github.com/fbasatemur/MFT/blob/main/Improved_Remote_Sensing_Image_Classification_using_Axial_Attention.pdf) [TR]
+
+[Multimodal Fusion Transformer for Remote Sensing Image Classification](https://www.researchgate.net/publication/359647022_Multimodal_Fusion_Transformer_for_Remote_Sensing_Image_Classification) [EN]
 
 ### Sample Dataset
 ___________
@@ -12,7 +18,6 @@ Get the disjoint dataset (Houston11x11 folder) from [Google Drive](https://drive
 Get the disjoint dataset (MUUFL11x11 folder) from [Google Drive](https://drive.google.com/drive/folders/1oTUAE3QiVb80sFNi6rvHukFTfZn-lJR_?usp=sharing)
 ___________
 
-The repository contains the implementations for [Multimodal Fusion Transformer for Remote Sensing Image Classification](https://www.researchgate.net/publication/359647022_Multimodal_Fusion_Transformer_for_Remote_Sensing_Image_Classification).
 
 <img src="./model.png" width="700" height="450"/>
 
@@ -48,15 +53,3 @@ The following transformer based deep learning methods will be available:
 - [x] [ViT](https://paperswithcode.com/paper/an-image-is-worth-16x16-words-transformers-1)
 - [x] [SpectralFormer](https://ieeexplore.ieee.org/document/9627165)
 - [x] [MFT](https://www.researchgate.net/publication/359647022_Multimodal_Fusion_Transformer_for_Remote_Sensing_Image_Classification)
-
-Citation
----------------------
-
-**Please kindly cite the papers if this code is useful and helpful for your research.**
-
-    @article{roy2022multimodal,
-      title={Multimodal Fusion Transformer for Remote Sensing Image Classification},
-      author={Roy, Swalpa Kumar and Deria, Ankur and Hong, Danfeng and Rasti, Behnood and Plazza, Antonio and Chanussot, Jocelyn},
-      journal={arxiv.org/abs/2203.16952},
-      year={2022}  
-    }
